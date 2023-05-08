@@ -97,7 +97,7 @@ body {
   float: left;
 }
 
-.blog-title {
+.blog-heading {
   font-size: 1.5rem;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .blog-posts {
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 .blog-posts .blog-date {
@@ -134,7 +134,7 @@ body {
 .events-card {
   width: 50%;
   float: left;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 .events-card p {
@@ -153,4 +153,21 @@ body {
   font-size: 0.9rem;
   color: gray;
   margin-bottom: 32px;
+}
+
+/* Footer styles  */
+footer {
+  background-color: black;
+  color: white;
+  padding: 60px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+footer img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 8px;
 }
